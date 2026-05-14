@@ -1,4 +1,32 @@
 {
   "version": "",
-  "patches": []
+  "patches": [
+    {
+      "name": "Hide ads",
+      "description": null,
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "cz.mafra.jizdnirady",
+          "name": "IDOS",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.8.0",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
