@@ -1,20 +1,18 @@
 {
-  "version": "",
+  "version": "1.0.0",
   "patches": [
     {
-      "name": "Hide ads",
-      "description": null,
+      "name": "Disable ads",
+      "description": "Disables ads in Mafra AdView.",
       "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
+      "dependencies": [],
       "compatiblePackages": [
         {
           "packageName": "cz.mafra.jizdnirady",
           "name": "IDOS",
           "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
+          "apkFileType": "APK",
+          "appIconColor": "#9FC5E8",
           "signatures": null,
           "targets": [
             {
