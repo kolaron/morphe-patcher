@@ -3,20 +3,6 @@ package app.morphe.patches.idos
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.methodCall
 
-// import com.android.tools.smali.dexlib2.AccessFlags
-
-// object DisplayAdFingerprint : Fingerprint(
-//     definingClass = "Lcz/mafra/ads/presentation/ui/AdView;",
-//     returnType = "V",
-//     filters = listOf(
-//         methodCall(name = "showInterscroller"),
-//         methodCall(name = "showWidesquare"),
-//         methodCall(name = "loadAdMob"),
-//         methodCall(name = "loadNativeAd"),
-//         methodCall(name = "dismissAds")
-//     )
-// )
-
 @Suppress("unused")
 object DisplayAdFingerprint : Fingerprint(
     definingClass = "Lcz/mafra/ads/presentation/ui/AdView;",
