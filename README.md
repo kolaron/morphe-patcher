@@ -6,7 +6,9 @@ A small, curated set of Morphe patches.
 
 This repository currently contains a single patch for **IDOS**, focused on improving the app experience by removing ads.
 
-<!-- PATCHES_START [EXPANDED] -->
+## Patches list
+
+<!-- PATCHES_START -->
 <!-- PATCHES_END -->
 
 ## How to use
