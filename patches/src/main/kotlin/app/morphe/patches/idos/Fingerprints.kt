@@ -1,6 +1,7 @@
 package app.morphe.patches.idos
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.literal
 import app.morphe.patcher.methodCall
 
 @Suppress("unused")
@@ -27,5 +28,22 @@ object DisplayAdFingerprint : Fingerprint(
         methodCall(name = "loadAdMob", returnType = "V"),
         methodCall(name = "loadNativeAd", returnType = "V"),
         methodCall(name = "dismissAds", returnType = "V")
+    )
+)
+
+@Suppress("unused")
+object LoadNativeAdInvokeSuspendFingerprint : Fingerprint(
+    returnType = "Ljava/lang/Object;",
+    parameters = listOf("Ljava/lang/Object;"),
+    strings = listOf(
+        "ca-app-pub-6065344208545391/5389004340"
+    ),
+    filters = listOf(
+        literal(4),
+        methodCall(name = "setMediaAspectRatio"),
+        methodCall(name = "forNativeAd"),
+        methodCall(name = "withAdListener"),
+        methodCall(name = "withNativeAdOptions"),
+        methodCall(name = "loadAd")
     )
 )
