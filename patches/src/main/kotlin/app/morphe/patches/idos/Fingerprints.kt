@@ -1,6 +1,8 @@
 package app.morphe.patches.idos
 
-import app.morphe.patcher.fingerprint
+import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.methodCall
+
 // import com.android.tools.smali.dexlib2.AccessFlags
 
 // object DisplayAdFingerprint : Fingerprint(
