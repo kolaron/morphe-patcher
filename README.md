@@ -6,6 +6,9 @@ A small, curated set of Morphe patches.
 
 This repository currently contains a single patch for **IDOS**, focused on improving the app experience by removing ads.
 
+<!-- PATCHES_START [EXPANDED] -->
+<!-- PATCHES_END -->
+
 ## How to use
 Install Morphe manager from [their website](https://morphe.software/), then simply click on this link to install my patches in the Morphe manager:
 https://morphe.software/add-source?github=kolaron/morphe-patcher. 
