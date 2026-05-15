@@ -7,7 +7,7 @@ import app.morphe.patches.shared.Constants.COMPATIBILITY_IDOS
 @Suppress("unused")
 val disableAdsPatch = bytecodePatch(
     name = "Disable ads",
-    description = "Disables ads in Mafra AdView.",
+    description = "Disables in-app ads in IDOS.",
     default = true
 ) {
     compatibleWith(COMPATIBILITY_IDOS)
