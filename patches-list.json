@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0-dev.1",
   "patches": [
     {
       "name": "Disable ads",
-      "description": "Disables ads in Mafra AdView.",
+      "description": "Disables in-app ads in IDOS.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
@@ -16,7 +16,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "3.8.0",
+              "version": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null

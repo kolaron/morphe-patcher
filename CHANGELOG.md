@@ -1,3 +1,11 @@
+# [1.1.0-dev.1](https://github.com/kolaron/morphe-patcher/compare/v1.0.0...v1.1.0-dev.1) (2026-05-15)
+
+
+### Features
+
+* change patch description and version ([823901c](https://github.com/kolaron/morphe-patcher/commit/823901c717eed0f7c6e4ffd8e8c2f402d75b1f77))
+* Remove entire ad view ([8b7fc06](https://github.com/kolaron/morphe-patcher/commit/8b7fc063be09859859473d1ae83c7ee5d7768af1))
+
 # 1.0.0 (2026-05-15)
 
 

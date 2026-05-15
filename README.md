@@ -9,19 +9,14 @@ This repository currently contains a single patch for **IDOS**, focused on impro
 ## Patches list
 
 <!-- PATCHES_START -->
-> **[v1.0.0](https://github.com/kolaron/morphe-patcher/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.1.0-dev.1](https://github.com/kolaron/morphe-patcher/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
 <summary>📦 IDOS&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
-**🎯 Supported versions:**
-
-| 3.8.0 |
-| :---: |
-
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Disable ads](#disable-ads) | Disables ads in Mafra AdView. |  |
+| [Disable ads](#disable-ads) | Disables in-app ads in IDOS. |  |
 
 </details>
 
